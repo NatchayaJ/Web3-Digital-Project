@@ -1,6 +1,10 @@
 @font-face {
     font-family: mainFont;
+<<<<<<< HEAD
     src: url(/fonts/trebuc.woff);
+=======
+    src: url(trebuc.woff);
+>>>>>>> master
 }
 
 body {
@@ -9,7 +13,11 @@ body {
 
 .hero {
     height: 100vh;
+<<<<<<< HEAD
     background-image: url('/images/hero_banner@2x.png');
+=======
+    background-image: url('hero_banner@2x.png');
+>>>>>>> master
     background-repeat: no-repeat;
     background-size: cover;
 }
