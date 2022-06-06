@@ -5,6 +5,8 @@
 
 body {
     font-family: mainFont;
+    background-image: -webkit-linear-gradient(26.66deg, #FFF5EB 0%, #F4F2F9 100%);
+    background-image: linear-gradient(63.34deg, #FFF5EB 0%, #F4F2F9 100%);
 }
 
 .hero {
