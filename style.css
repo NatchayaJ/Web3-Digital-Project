@@ -3,6 +3,10 @@
     src: url(trebuc.woff);
 }
 
+html {
+  scroll-padding-top: 80px; /* height of sticky header */
+}
+
 body {
     font-family: mainFont;
     background-image: -webkit-linear-gradient(26.66deg, #FFF5EB 0%, #F4F2F9 100%);
@@ -11,6 +15,7 @@ body {
 
 .hero {
     height: 100vh;
+    width: auto;
     background-image: url('hero_banner@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +46,7 @@ body {
     font-weight: bold;
 }
 
-.wrap-bg:before{
+.wrap-bg:before {
     width: 100%;
     content: " ";
     background-color: #DAB88B;
@@ -49,8 +54,12 @@ body {
     left: 0;
     right: 0;
     bottom: 37%;
-    height: 250px;
-    z-index: -1;
+    height: 400px;
+}
+
+.brown-bg {
+    background-color: #DAB88B;
+    width: 100%;
 }
 
 a {
